@@ -56,7 +56,7 @@ namespace Health_and_Fitness
             this.title_bar.Dock = System.Windows.Forms.DockStyle.Top;
             this.title_bar.Location = new System.Drawing.Point(0, 0);
             this.title_bar.Name = "title_bar";
-            this.title_bar.Size = new System.Drawing.Size(640, 26);
+            this.title_bar.Size = new System.Drawing.Size(800, 26);
             this.title_bar.TabIndex = 0;
             this.title_bar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseDown);
             this.title_bar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseMove);
@@ -88,7 +88,7 @@ namespace Health_and_Fitness
             this.Minimize_BTN.FlatAppearance.BorderSize = 0;
             this.Minimize_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimize_BTN.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Minimize_BTN.Location = new System.Drawing.Point(540, 0);
+            this.Minimize_BTN.Location = new System.Drawing.Point(700, 0);
             this.Minimize_BTN.Name = "Minimize_BTN";
             this.Minimize_BTN.Size = new System.Drawing.Size(50, 26);
             this.Minimize_BTN.TabIndex = 1;
@@ -102,7 +102,7 @@ namespace Health_and_Fitness
             this.Exit_BTN.FlatAppearance.BorderSize = 0;
             this.Exit_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit_BTN.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Exit_BTN.Location = new System.Drawing.Point(590, 0);
+            this.Exit_BTN.Location = new System.Drawing.Point(750, 0);
             this.Exit_BTN.Name = "Exit_BTN";
             this.Exit_BTN.Size = new System.Drawing.Size(50, 26);
             this.Exit_BTN.TabIndex = 0;
@@ -130,7 +130,7 @@ namespace Health_and_Fitness
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(104, 377);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(164, 479);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // button5
@@ -139,10 +139,10 @@ namespace Health_and_Fitness
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(0, 300);
+            this.button5.Location = new System.Drawing.Point(0, 380);
             this.button5.Margin = new System.Windows.Forms.Padding(0);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(104, 77);
+            this.button5.Size = new System.Drawing.Size(164, 99);
             this.button5.TabIndex = 4;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -153,10 +153,10 @@ namespace Health_and_Fitness
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(0, 225);
+            this.button4.Location = new System.Drawing.Point(0, 285);
             this.button4.Margin = new System.Windows.Forms.Padding(0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 75);
+            this.button4.Size = new System.Drawing.Size(164, 95);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
@@ -167,10 +167,10 @@ namespace Health_and_Fitness
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(0, 150);
+            this.button3.Location = new System.Drawing.Point(0, 190);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 75);
+            this.button3.Size = new System.Drawing.Size(164, 95);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -181,10 +181,10 @@ namespace Health_and_Fitness
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(0, 75);
+            this.button2.Location = new System.Drawing.Point(0, 95);
             this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 75);
+            this.button2.Size = new System.Drawing.Size(164, 95);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -199,7 +199,7 @@ namespace Health_and_Fitness
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 75);
+            this.button1.Size = new System.Drawing.Size(164, 95);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -208,9 +208,9 @@ namespace Health_and_Fitness
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(104, 26);
+            this.panel1.Location = new System.Drawing.Point(164, 26);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(536, 377);
+            this.panel1.Size = new System.Drawing.Size(636, 479);
             this.panel1.TabIndex = 3;
             // 
             // Main_Form
@@ -218,7 +218,7 @@ namespace Health_and_Fitness
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(640, 403);
+            this.ClientSize = new System.Drawing.Size(800, 505);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
