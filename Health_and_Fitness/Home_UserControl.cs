@@ -16,5 +16,10 @@ namespace Health_and_Fitness
         {
             InitializeComponent();
         }
+
+        private void Home_UserControl_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

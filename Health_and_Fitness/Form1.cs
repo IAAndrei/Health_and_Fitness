@@ -138,6 +138,8 @@ namespace Health_and_Fitness
             t1.Interval = 10;
             t1.Tick += new EventHandler(FadeIn);
             t1.Start();
+            Home_UserControl HUC = new Home_UserControl();
+            showControl(HUC);
         }
 
         private void FadeIn(object sender, EventArgs e)
@@ -160,6 +162,44 @@ namespace Health_and_Fitness
             {
                 this.Close();
             }
+        }
+        public void showControl(Control control)
+        {
+            UserControlBackground_Panel.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            control.BringToFront();
+            control.Focus();
+            UserControlBackground_Panel.Controls.Add(control);
+        }
+
+        private void Home_BTN_Click(object sender, EventArgs e)
+        {
+            Home_UserControl h_uc = new Home_UserControl();
+            showControl(h_uc);
+        }
+
+        private void Schedule_BTN_Click(object sender, EventArgs e)
+        {
+            Schedule_UserControl s_uc = new Schedule_UserControl();
+            showControl(s_uc);
+        }
+
+        private void Data_BTN_Click(object sender, EventArgs e)
+        {
+            Data_UserControl d_uc = new Data_UserControl();
+            showControl(d_uc);
+        }
+
+        private void Nutrition_BTN_Click(object sender, EventArgs e)
+        {
+            Nutrition_UserControl n_uc = new Nutrition_UserControl();
+            showControl(n_uc);
+        }
+
+        private void Settings_BTN_Click(object sender, EventArgs e)
+        {
+            Settings_UserControl st_uc = new Settings_UserControl();
+            showControl(st_uc);
         }
     }
 }
