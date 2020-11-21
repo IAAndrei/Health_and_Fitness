@@ -245,6 +245,7 @@ namespace Health_and_Fitness
             this.Name = "Main_Form";
             this.Text = "Main_Form";
             this.Activated += new System.EventHandler(this.Main_Form_Activated);
+            this.Load += new System.EventHandler(this.Main_Form_Load);
             this.Title_bar.ResumeLayout(false);
             this.Title_bar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Icon_PicBox)).EndInit();

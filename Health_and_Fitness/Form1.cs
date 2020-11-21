@@ -16,12 +16,17 @@ namespace Health_and_Fitness
         bool moving; //is the form moving
         Point offset; //form offset position
         Point original; //form original position
+        readonly Timer t1 = new Timer(); // a timer
+        readonly Timer t2 = new Timer(); // second timer
 
 
         public Main_Form()
         {
             InitializeComponent();
         }
+
+
+
 
         // Move window with mouse drag functions
 
@@ -71,19 +76,26 @@ namespace Health_and_Fitness
 
         private void Exit_BTN_Click(object sender, EventArgs e)
         {
-            this.Close();
+            t2.Interval = 10;
+            t2.Tick += new EventHandler(FadeOut);
+            t2.Start();
+
+            if (Opacity <= 0)
+            {
+                this.Close();
+            }
         }
 
         //form minimize anim + min button
 
         private void Minimize_BTN_Click(object sender, EventArgs e)
         {
-            this.FormBorderStyle = FormBorderStyle.Sizable;
+            //this.FormBorderStyle = FormBorderStyle.Sizable;
             this.WindowState = FormWindowState.Minimized;
         }
         private void Main_Form_Activated(object sender, EventArgs e)
         {
-            this.FormBorderStyle = FormBorderStyle.None;
+            //this.FormBorderStyle = FormBorderStyle.None;
         }
 
 
@@ -116,6 +128,38 @@ namespace Health_and_Fitness
         private void Icon_PicBox_MouseUp(object sender, MouseEventArgs e)
         {
             EndMoving();
+        }
+
+        // On load, fade in the form. On exit, fade out the form.
+
+        private void Main_Form_Load(object sender, EventArgs e)
+        {
+            Opacity = 0;
+            t1.Interval = 10;
+            t1.Tick += new EventHandler(FadeIn);
+            t1.Start();
+        }
+
+        private void FadeIn(object sender, EventArgs e)
+        {
+            if (Opacity >= 1)
+            {
+                t1.Stop();
+            } else
+            {
+                Opacity += 0.05;
+            }
+        }
+
+        private void FadeOut(object sender, EventArgs e)
+        {
+            if(Opacity > 0)
+            {
+                Opacity -= 0.05;
+            } else
+            {
+                this.Close();
+            }
         }
     }
 }
