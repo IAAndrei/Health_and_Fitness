@@ -23,18 +23,17 @@ namespace Health_and_Fitness
             InitializeComponent();
         }
 
+        // Move window with mouse drag functions
 
-        // form drag starts here
-        private void title_bar_MouseDown(object sender, MouseEventArgs e)
+        public void StartMoving()
         {
             moving = true;
             Title_bar.Capture = true;
             offset = MousePosition;
             original = this.Location;
-
         }
 
-        private void title_bar_MouseMove(object sender, MouseEventArgs e)
+        public void IsMoving()
         {
             if (!moving)
                 return;
@@ -43,14 +42,29 @@ namespace Health_and_Fitness
             int y = original.Y + MousePosition.Y - offset.Y;
 
             this.Location = new Point(x, y);
+        }
 
+        public void EndMoving()
+        {
+            moving = false;
+            Title_bar.Capture = false;
+        }
+
+
+        // form drag starts here
+        private void title_bar_MouseDown(object sender, MouseEventArgs e)
+        {
+            StartMoving();
+        }
+
+        private void title_bar_MouseMove(object sender, MouseEventArgs e)
+        {
+            IsMoving();
         }
 
         private void title_bar_MouseUp(object sender, MouseEventArgs e)
         {
-            moving = false;
-            Title_bar.Capture = false;
-
+            EndMoving();
         }
 
         //exit button
@@ -59,7 +73,7 @@ namespace Health_and_Fitness
         {
             this.Close();
         }
-        
+
         //form minimize anim + min button
 
         private void Minimize_BTN_Click(object sender, EventArgs e)
@@ -70,6 +84,38 @@ namespace Health_and_Fitness
         private void Main_Form_Activated(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
+        }
+
+
+        // Mouse window drag from Title & Icon
+        private void Title_Label_MouseDown(object sender, MouseEventArgs e)
+        {
+            StartMoving();
+        }
+
+        private void Title_Label_MouseMove(object sender, MouseEventArgs e)
+        {
+            IsMoving();
+        }
+
+        private void Title_Label_MouseUp(object sender, MouseEventArgs e)
+        {
+            EndMoving();
+        }
+
+        private void Icon_PicBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            StartMoving();
+        }
+
+        private void Icon_PicBox_MouseMove(object sender, MouseEventArgs e)
+        {
+            IsMoving();
+        }
+
+        private void Icon_PicBox_MouseUp(object sender, MouseEventArgs e)
+        {
+            EndMoving();
         }
     }
 }

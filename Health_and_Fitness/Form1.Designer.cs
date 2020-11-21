@@ -30,6 +30,7 @@ namespace Health_and_Fitness
         private void InitializeComponent()
         {
             this.Title_bar = new System.Windows.Forms.Panel();
+            this.IconPlaceholderIndicator_Label = new System.Windows.Forms.Label();
             this.Title_Label = new System.Windows.Forms.Label();
             this.Icon_PicBox = new System.Windows.Forms.PictureBox();
             this.Minimize_BTN = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace Health_and_Fitness
             this.Schedule_BTN = new System.Windows.Forms.Button();
             this.Home_BTN = new System.Windows.Forms.Button();
             this.UserControlBackground_Panel = new System.Windows.Forms.Panel();
-            this.IconPlaceholderIndicator_Label = new System.Windows.Forms.Label();
             this.Title_bar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Icon_PicBox)).BeginInit();
             this.TableLayoutPanel.SuspendLayout();
@@ -64,6 +64,16 @@ namespace Health_and_Fitness
             this.Title_bar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseMove);
             this.Title_bar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseUp);
             // 
+            // IconPlaceholderIndicator_Label
+            // 
+            this.IconPlaceholderIndicator_Label.AutoSize = true;
+            this.IconPlaceholderIndicator_Label.ForeColor = System.Drawing.Color.Red;
+            this.IconPlaceholderIndicator_Label.Location = new System.Drawing.Point(45, 7);
+            this.IconPlaceholderIndicator_Label.Name = "IconPlaceholderIndicator_Label";
+            this.IconPlaceholderIndicator_Label.Size = new System.Drawing.Size(96, 13);
+            this.IconPlaceholderIndicator_Label.TabIndex = 5;
+            this.IconPlaceholderIndicator_Label.Text = "< Icon Placeholder";
+            // 
             // Title_Label
             // 
             this.Title_Label.AutoSize = true;
@@ -73,6 +83,9 @@ namespace Health_and_Fitness
             this.Title_Label.Size = new System.Drawing.Size(119, 13);
             this.Title_Label.TabIndex = 4;
             this.Title_Label.Text = "[PH] Health and Fitness";
+            this.Title_Label.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Title_Label_MouseDown);
+            this.Title_Label.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Title_Label_MouseMove);
+            this.Title_Label.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Title_Label_MouseUp);
             // 
             // Icon_PicBox
             // 
@@ -82,6 +95,9 @@ namespace Health_and_Fitness
             this.Icon_PicBox.Size = new System.Drawing.Size(27, 26);
             this.Icon_PicBox.TabIndex = 3;
             this.Icon_PicBox.TabStop = false;
+            this.Icon_PicBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Icon_PicBox_MouseDown);
+            this.Icon_PicBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Icon_PicBox_MouseMove);
+            this.Icon_PicBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Icon_PicBox_MouseUp);
             // 
             // Minimize_BTN
             // 
@@ -213,16 +229,6 @@ namespace Health_and_Fitness
             this.UserControlBackground_Panel.Name = "UserControlBackground_Panel";
             this.UserControlBackground_Panel.Size = new System.Drawing.Size(636, 479);
             this.UserControlBackground_Panel.TabIndex = 3;
-            // 
-            // IconPlaceholderIndicator_Label
-            // 
-            this.IconPlaceholderIndicator_Label.AutoSize = true;
-            this.IconPlaceholderIndicator_Label.ForeColor = System.Drawing.Color.Red;
-            this.IconPlaceholderIndicator_Label.Location = new System.Drawing.Point(45, 7);
-            this.IconPlaceholderIndicator_Label.Name = "IconPlaceholderIndicator_Label";
-            this.IconPlaceholderIndicator_Label.Size = new System.Drawing.Size(96, 13);
-            this.IconPlaceholderIndicator_Label.TabIndex = 5;
-            this.IconPlaceholderIndicator_Label.Text = "< Icon Placeholder";
             // 
             // Main_Form
             // 
