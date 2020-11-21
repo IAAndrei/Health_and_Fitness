@@ -35,12 +35,13 @@ namespace Health_and_Fitness
             this.Minimize_BTN = new System.Windows.Forms.Button();
             this.Exit_BTN = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Settings_BTN = new System.Windows.Forms.Button();
+            this.Nutrition_BTN = new System.Windows.Forms.Button();
+            this.Data_BTN = new System.Windows.Forms.Button();
+            this.Schedule_BTN = new System.Windows.Forms.Button();
+            this.Home_BTN = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.title_bar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -49,6 +50,7 @@ namespace Health_and_Fitness
             // title_bar
             // 
             this.title_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.title_bar.Controls.Add(this.label2);
             this.title_bar.Controls.Add(this.label1);
             this.title_bar.Controls.Add(this.pictureBox1);
             this.title_bar.Controls.Add(this.Minimize_BTN);
@@ -75,8 +77,7 @@ namespace Health_and_Fitness
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 26);
             this.pictureBox1.TabIndex = 3;
@@ -116,11 +117,11 @@ namespace Health_and_Fitness
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.button5, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Settings_BTN, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.Nutrition_BTN, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.Data_BTN, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.Schedule_BTN, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Home_BTN, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 26);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -133,76 +134,76 @@ namespace Health_and_Fitness
             this.tableLayoutPanel1.Size = new System.Drawing.Size(164, 479);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // button5
+            // Settings_BTN
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(0, 380);
-            this.button5.Margin = new System.Windows.Forms.Padding(0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(164, 99);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Settings_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Settings_BTN.FlatAppearance.BorderSize = 0;
+            this.Settings_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Settings_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Settings_BTN.Location = new System.Drawing.Point(0, 380);
+            this.Settings_BTN.Margin = new System.Windows.Forms.Padding(0);
+            this.Settings_BTN.Name = "Settings_BTN";
+            this.Settings_BTN.Size = new System.Drawing.Size(164, 99);
+            this.Settings_BTN.TabIndex = 4;
+            this.Settings_BTN.Text = "Settings";
+            this.Settings_BTN.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Nutrition_BTN
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(0, 285);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(164, 95);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Nutrition_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Nutrition_BTN.FlatAppearance.BorderSize = 0;
+            this.Nutrition_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Nutrition_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Nutrition_BTN.Location = new System.Drawing.Point(0, 285);
+            this.Nutrition_BTN.Margin = new System.Windows.Forms.Padding(0);
+            this.Nutrition_BTN.Name = "Nutrition_BTN";
+            this.Nutrition_BTN.Size = new System.Drawing.Size(164, 95);
+            this.Nutrition_BTN.TabIndex = 3;
+            this.Nutrition_BTN.Text = "Nutrition";
+            this.Nutrition_BTN.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Data_BTN
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(0, 190);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(164, 95);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Data_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Data_BTN.FlatAppearance.BorderSize = 0;
+            this.Data_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Data_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Data_BTN.Location = new System.Drawing.Point(0, 190);
+            this.Data_BTN.Margin = new System.Windows.Forms.Padding(0);
+            this.Data_BTN.Name = "Data_BTN";
+            this.Data_BTN.Size = new System.Drawing.Size(164, 95);
+            this.Data_BTN.TabIndex = 2;
+            this.Data_BTN.Text = "Data";
+            this.Data_BTN.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Schedule_BTN
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(0, 95);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 95);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Schedule_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Schedule_BTN.FlatAppearance.BorderSize = 0;
+            this.Schedule_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Schedule_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Schedule_BTN.Location = new System.Drawing.Point(0, 95);
+            this.Schedule_BTN.Margin = new System.Windows.Forms.Padding(0);
+            this.Schedule_BTN.Name = "Schedule_BTN";
+            this.Schedule_BTN.Size = new System.Drawing.Size(164, 95);
+            this.Schedule_BTN.TabIndex = 1;
+            this.Schedule_BTN.Text = "Schedule";
+            this.Schedule_BTN.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Home_BTN
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 95);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Home_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Home_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Home_BTN.FlatAppearance.BorderSize = 0;
+            this.Home_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Home_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Home_BTN.Location = new System.Drawing.Point(0, 0);
+            this.Home_BTN.Margin = new System.Windows.Forms.Padding(0);
+            this.Home_BTN.Name = "Home_BTN";
+            this.Home_BTN.Size = new System.Drawing.Size(164, 95);
+            this.Home_BTN.TabIndex = 0;
+            this.Home_BTN.Text = "Home";
+            this.Home_BTN.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -212,6 +213,16 @@ namespace Health_and_Fitness
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(636, 479);
             this.panel1.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(45, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "< Icon Placeholder";
             // 
             // Main_Form
             // 
@@ -243,13 +254,14 @@ namespace Health_and_Fitness
         private System.Windows.Forms.Button Exit_BTN;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Settings_BTN;
+        private System.Windows.Forms.Button Nutrition_BTN;
+        private System.Windows.Forms.Button Data_BTN;
+        private System.Windows.Forms.Button Schedule_BTN;
+        private System.Windows.Forms.Button Home_BTN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
