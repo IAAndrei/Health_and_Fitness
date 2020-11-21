@@ -29,59 +29,59 @@ namespace Health_and_Fitness
         /// </summary>
         private void InitializeComponent()
         {
-            this.title_bar = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Title_bar = new System.Windows.Forms.Panel();
+            this.Title_Label = new System.Windows.Forms.Label();
+            this.Icon_PicBox = new System.Windows.Forms.PictureBox();
             this.Minimize_BTN = new System.Windows.Forms.Button();
             this.Exit_BTN = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.Settings_BTN = new System.Windows.Forms.Button();
             this.Nutrition_BTN = new System.Windows.Forms.Button();
             this.Data_BTN = new System.Windows.Forms.Button();
             this.Schedule_BTN = new System.Windows.Forms.Button();
             this.Home_BTN = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.title_bar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.UserControlBackground_Panel = new System.Windows.Forms.Panel();
+            this.IconPlaceholderIndicator_Label = new System.Windows.Forms.Label();
+            this.Title_bar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Icon_PicBox)).BeginInit();
+            this.TableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // title_bar
+            // Title_bar
             // 
-            this.title_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.title_bar.Controls.Add(this.label2);
-            this.title_bar.Controls.Add(this.label1);
-            this.title_bar.Controls.Add(this.pictureBox1);
-            this.title_bar.Controls.Add(this.Minimize_BTN);
-            this.title_bar.Controls.Add(this.Exit_BTN);
-            this.title_bar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.title_bar.Location = new System.Drawing.Point(0, 0);
-            this.title_bar.Name = "title_bar";
-            this.title_bar.Size = new System.Drawing.Size(800, 26);
-            this.title_bar.TabIndex = 0;
-            this.title_bar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseDown);
-            this.title_bar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseMove);
-            this.title_bar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseUp);
+            this.Title_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Title_bar.Controls.Add(this.IconPlaceholderIndicator_Label);
+            this.Title_bar.Controls.Add(this.Title_Label);
+            this.Title_bar.Controls.Add(this.Icon_PicBox);
+            this.Title_bar.Controls.Add(this.Minimize_BTN);
+            this.Title_bar.Controls.Add(this.Exit_BTN);
+            this.Title_bar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Title_bar.Location = new System.Drawing.Point(0, 0);
+            this.Title_bar.Name = "Title_bar";
+            this.Title_bar.Size = new System.Drawing.Size(800, 26);
+            this.Title_bar.TabIndex = 0;
+            this.Title_bar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseDown);
+            this.Title_bar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseMove);
+            this.Title_bar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.title_bar_MouseUp);
             // 
-            // label1
+            // Title_Label
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(272, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Health and Fitness";
+            this.Title_Label.AutoSize = true;
+            this.Title_Label.ForeColor = System.Drawing.SystemColors.Control;
+            this.Title_Label.Location = new System.Drawing.Point(272, 7);
+            this.Title_Label.Name = "Title_Label";
+            this.Title_Label.Size = new System.Drawing.Size(119, 13);
+            this.Title_Label.TabIndex = 4;
+            this.Title_Label.Text = "[PH] Health and Fitness";
             // 
-            // pictureBox1
+            // Icon_PicBox
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 26);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.Icon_PicBox.BackColor = System.Drawing.Color.Gray;
+            this.Icon_PicBox.Location = new System.Drawing.Point(12, 0);
+            this.Icon_PicBox.Name = "Icon_PicBox";
+            this.Icon_PicBox.Size = new System.Drawing.Size(27, 26);
+            this.Icon_PicBox.TabIndex = 3;
+            this.Icon_PicBox.TabStop = false;
             // 
             // Minimize_BTN
             // 
@@ -111,28 +111,28 @@ namespace Health_and_Fitness
             this.Exit_BTN.UseVisualStyleBackColor = true;
             this.Exit_BTN.Click += new System.EventHandler(this.Exit_BTN_Click);
             // 
-            // tableLayoutPanel1
+            // TableLayoutPanel
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.Settings_BTN, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.Nutrition_BTN, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.Data_BTN, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.Schedule_BTN, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.Home_BTN, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 26);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(164, 479);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.TableLayoutPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.TableLayoutPanel.ColumnCount = 1;
+            this.TableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.TableLayoutPanel.Controls.Add(this.Settings_BTN, 0, 4);
+            this.TableLayoutPanel.Controls.Add(this.Nutrition_BTN, 0, 3);
+            this.TableLayoutPanel.Controls.Add(this.Data_BTN, 0, 2);
+            this.TableLayoutPanel.Controls.Add(this.Schedule_BTN, 0, 1);
+            this.TableLayoutPanel.Controls.Add(this.Home_BTN, 0, 0);
+            this.TableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.TableLayoutPanel.Location = new System.Drawing.Point(0, 26);
+            this.TableLayoutPanel.Name = "TableLayoutPanel";
+            this.TableLayoutPanel.RowCount = 5;
+            this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.TableLayoutPanel.Size = new System.Drawing.Size(164, 479);
+            this.TableLayoutPanel.TabIndex = 2;
             // 
             // Settings_BTN
             // 
@@ -205,24 +205,24 @@ namespace Health_and_Fitness
             this.Home_BTN.Text = "Home";
             this.Home_BTN.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // UserControlBackground_Panel
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(164, 26);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(636, 479);
-            this.panel1.TabIndex = 3;
+            this.UserControlBackground_Panel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.UserControlBackground_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UserControlBackground_Panel.Location = new System.Drawing.Point(164, 26);
+            this.UserControlBackground_Panel.Name = "UserControlBackground_Panel";
+            this.UserControlBackground_Panel.Size = new System.Drawing.Size(636, 479);
+            this.UserControlBackground_Panel.TabIndex = 3;
             // 
-            // label2
+            // IconPlaceholderIndicator_Label
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(45, 7);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "< Icon Placeholder";
+            this.IconPlaceholderIndicator_Label.AutoSize = true;
+            this.IconPlaceholderIndicator_Label.ForeColor = System.Drawing.Color.Red;
+            this.IconPlaceholderIndicator_Label.Location = new System.Drawing.Point(45, 7);
+            this.IconPlaceholderIndicator_Label.Name = "IconPlaceholderIndicator_Label";
+            this.IconPlaceholderIndicator_Label.Size = new System.Drawing.Size(96, 13);
+            this.IconPlaceholderIndicator_Label.TabIndex = 5;
+            this.IconPlaceholderIndicator_Label.Text = "< Icon Placeholder";
             // 
             // Main_Form
             // 
@@ -231,37 +231,37 @@ namespace Health_and_Fitness
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(800, 505);
             this.ControlBox = false;
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.title_bar);
+            this.Controls.Add(this.UserControlBackground_Panel);
+            this.Controls.Add(this.TableLayoutPanel);
+            this.Controls.Add(this.Title_bar);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main_Form";
             this.Text = "Main_Form";
             this.Activated += new System.EventHandler(this.Main_Form_Activated);
-            this.title_bar.ResumeLayout(false);
-            this.title_bar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.Title_bar.ResumeLayout(false);
+            this.Title_bar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Icon_PicBox)).EndInit();
+            this.TableLayoutPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel title_bar;
+        private System.Windows.Forms.Panel Title_bar;
         private System.Windows.Forms.Button Minimize_BTN;
         private System.Windows.Forms.Button Exit_BTN;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TableLayoutPanel TableLayoutPanel;
+        private System.Windows.Forms.PictureBox Icon_PicBox;
         private System.Windows.Forms.Button Settings_BTN;
         private System.Windows.Forms.Button Nutrition_BTN;
         private System.Windows.Forms.Button Data_BTN;
         private System.Windows.Forms.Button Schedule_BTN;
         private System.Windows.Forms.Button Home_BTN;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Title_Label;
+        private System.Windows.Forms.Panel UserControlBackground_Panel;
+        private System.Windows.Forms.Label IconPlaceholderIndicator_Label;
     }
 }
 

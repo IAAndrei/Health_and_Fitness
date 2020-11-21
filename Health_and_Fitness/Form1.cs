@@ -28,7 +28,7 @@ namespace Health_and_Fitness
         private void title_bar_MouseDown(object sender, MouseEventArgs e)
         {
             moving = true;
-            title_bar.Capture = true;
+            Title_bar.Capture = true;
             offset = MousePosition;
             original = this.Location;
 
@@ -49,7 +49,7 @@ namespace Health_and_Fitness
         private void title_bar_MouseUp(object sender, MouseEventArgs e)
         {
             moving = false;
-            title_bar.Capture = false;
+            Title_bar.Capture = false;
 
         }
 
