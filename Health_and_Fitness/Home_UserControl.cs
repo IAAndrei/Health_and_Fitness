@@ -15,6 +15,12 @@ namespace Health_and_Fitness
         public Home_UserControl()
         {
             InitializeComponent();
+            List<Control> lb = Controls.OfType<Label>().Cast<Control>().ToList();
+            foreach (var eachlb in lb)
+            {
+                eachlb.Parent = HomeBG_PictureBox;
+                eachlb.ForeColor = Color.FromArgb(255, 255, 255);
+            }
         }
 
         private void Home_UserControl_Load(object sender, EventArgs e)
