@@ -49,7 +49,7 @@ namespace Health_and_Fitness
             // 
             // Title_bar
             // 
-            this.Title_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Title_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Title_bar.Controls.Add(this.IconPlaceholderIndicator_Label);
             this.Title_bar.Controls.Add(this.Title_Label);
             this.Title_bar.Controls.Add(this.Icon_PicBox);
@@ -158,6 +158,7 @@ namespace Health_and_Fitness
             // 
             // Settings_BTN
             // 
+            this.Settings_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Settings_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Settings_BTN.FlatAppearance.BorderSize = 0;
             this.Settings_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -169,11 +170,12 @@ namespace Health_and_Fitness
             this.Settings_BTN.Size = new System.Drawing.Size(191, 97);
             this.Settings_BTN.TabIndex = 4;
             this.Settings_BTN.Text = "Settings";
-            this.Settings_BTN.UseVisualStyleBackColor = true;
+            this.Settings_BTN.UseVisualStyleBackColor = false;
             this.Settings_BTN.Click += new System.EventHandler(this.Settings_BTN_Click);
             // 
             // Nutrition_BTN
             // 
+            this.Nutrition_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Nutrition_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Nutrition_BTN.FlatAppearance.BorderSize = 0;
             this.Nutrition_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -185,11 +187,12 @@ namespace Health_and_Fitness
             this.Nutrition_BTN.Size = new System.Drawing.Size(191, 94);
             this.Nutrition_BTN.TabIndex = 3;
             this.Nutrition_BTN.Text = "Nutrition";
-            this.Nutrition_BTN.UseVisualStyleBackColor = true;
+            this.Nutrition_BTN.UseVisualStyleBackColor = false;
             this.Nutrition_BTN.Click += new System.EventHandler(this.Nutrition_BTN_Click);
             // 
             // Data_BTN
             // 
+            this.Data_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Data_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Data_BTN.FlatAppearance.BorderSize = 0;
             this.Data_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -201,11 +204,12 @@ namespace Health_and_Fitness
             this.Data_BTN.Size = new System.Drawing.Size(191, 94);
             this.Data_BTN.TabIndex = 2;
             this.Data_BTN.Text = "Data";
-            this.Data_BTN.UseVisualStyleBackColor = true;
+            this.Data_BTN.UseVisualStyleBackColor = false;
             this.Data_BTN.Click += new System.EventHandler(this.Data_BTN_Click);
             // 
             // Schedule_BTN
             // 
+            this.Schedule_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Schedule_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Schedule_BTN.FlatAppearance.BorderSize = 0;
             this.Schedule_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -217,12 +221,12 @@ namespace Health_and_Fitness
             this.Schedule_BTN.Size = new System.Drawing.Size(191, 94);
             this.Schedule_BTN.TabIndex = 1;
             this.Schedule_BTN.Text = "Schedule";
-            this.Schedule_BTN.UseVisualStyleBackColor = true;
+            this.Schedule_BTN.UseVisualStyleBackColor = false;
             this.Schedule_BTN.Click += new System.EventHandler(this.Schedule_BTN_Click);
             // 
             // Home_BTN
             // 
-            this.Home_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Home_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Home_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Home_BTN.FlatAppearance.BorderSize = 0;
             this.Home_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
