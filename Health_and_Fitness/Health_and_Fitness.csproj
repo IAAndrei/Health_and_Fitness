@@ -56,6 +56,24 @@
     <Compile Include="Data_UserControl.Designer.cs">
       <DependentUpon>Data_UserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExerciseDetail_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExerciseDetail_UserControl.Designer.cs">
+      <DependentUpon>ExerciseDetail_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExerciseScheduler_Date_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExerciseScheduler_Date_UserControl.Designer.cs">
+      <DependentUpon>ExerciseScheduler_Date_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExerciseScheduler_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExerciseScheduler_UserControl.Designer.cs">
+      <DependentUpon>ExerciseScheduler_UserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +108,15 @@
     </Compile>
     <EmbeddedResource Include="Data_UserControl.resx">
       <DependentUpon>Data_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExerciseDetail_UserControl.resx">
+      <DependentUpon>ExerciseDetail_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExerciseScheduler_Date_UserControl.resx">
+      <DependentUpon>ExerciseScheduler_Date_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExerciseScheduler_UserControl.resx">
+      <DependentUpon>ExerciseScheduler_UserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

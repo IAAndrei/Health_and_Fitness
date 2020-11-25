@@ -80,7 +80,7 @@ namespace Health_and_Fitness
             t2.Tick += new EventHandler(FadeOut);
             t2.Start();
 
-            if (Opacity <= 0)
+            if (Opacity <= 0)   
             {
                 this.Close();
             }

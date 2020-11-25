@@ -15,6 +15,17 @@ namespace Health_and_Fitness
         public Schedule_UserControl()
         {
             InitializeComponent();
+            List<Control> lb = Controls.OfType<Label>().Cast<Control>().ToList();
+            foreach (var eachlb in lb)
+            {
+                eachlb.Parent = ScheduleBG_PictureBox;
+                eachlb.ForeColor = Color.FromArgb(255, 255, 255);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
