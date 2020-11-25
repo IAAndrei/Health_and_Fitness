@@ -29,6 +29,7 @@ namespace Health_and_Fitness
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Form));
             this.Title_bar = new System.Windows.Forms.Panel();
             this.IconPlaceholderIndicator_Label = new System.Windows.Forms.Label();
             this.Title_Label = new System.Windows.Forms.Label();
@@ -91,11 +92,13 @@ namespace Health_and_Fitness
             // 
             // Icon_PicBox
             // 
-            this.Icon_PicBox.BackColor = System.Drawing.Color.Gray;
-            this.Icon_PicBox.Location = new System.Drawing.Point(14, 0);
+            this.Icon_PicBox.BackColor = System.Drawing.Color.Transparent;
+            this.Icon_PicBox.Image = ((System.Drawing.Image)(resources.GetObject("Icon_PicBox.Image")));
+            this.Icon_PicBox.Location = new System.Drawing.Point(5, 6);
             this.Icon_PicBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Icon_PicBox.Name = "Icon_PicBox";
-            this.Icon_PicBox.Size = new System.Drawing.Size(31, 32);
+            this.Icon_PicBox.Size = new System.Drawing.Size(41, 19);
+            this.Icon_PicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Icon_PicBox.TabIndex = 3;
             this.Icon_PicBox.TabStop = false;
             this.Icon_PicBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Icon_PicBox_MouseDown);
@@ -243,7 +246,7 @@ namespace Health_and_Fitness
             // 
             // UserControlBackground_Panel
             // 
-            this.UserControlBackground_Panel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.UserControlBackground_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
             this.UserControlBackground_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UserControlBackground_Panel.Location = new System.Drawing.Point(191, 32);
             this.UserControlBackground_Panel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -264,6 +267,7 @@ namespace Health_and_Fitness
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Main_Form";
             this.Text = "Main_Form";

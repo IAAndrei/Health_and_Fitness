@@ -77,10 +77,11 @@ namespace Health_and_Fitness
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(3, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(633, 341);
+            this.panel1.Size = new System.Drawing.Size(633, 344);
             this.panel1.TabIndex = 8;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -273,6 +274,7 @@ namespace Health_and_Fitness
             this.Controls.Add(this.ScheduleBG_PictureBox);
             this.Name = "Schedule_UserControl";
             this.Size = new System.Drawing.Size(636, 479);
+            this.Load += new System.EventHandler(this.Schedule_UserControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ScheduleBG_PictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
