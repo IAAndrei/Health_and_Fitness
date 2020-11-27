@@ -95,14 +95,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HFdbDataSet.cs">
-      <DependentUpon>HFdbDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="HFdbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HFdbDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Home_UserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,17 +158,6 @@
     <EmbeddedResource Include="Settings_UserControl.resx">
       <DependentUpon>Settings_UserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="HFdbDataSet.xsc">
-      <DependentUpon>HFdbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="HFdbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HFdbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="HFdbDataSet.xss">
-      <DependentUpon>HFdbDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -189,15 +170,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="HFdb.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="HFdb_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>HFdb.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
