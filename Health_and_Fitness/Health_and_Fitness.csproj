@@ -101,7 +101,6 @@
     <Compile Include="Home_UserControl.Designer.cs">
       <DependentUpon>Home_UserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mixrr.cs" />
     <Compile Include="Nutrition_UserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
