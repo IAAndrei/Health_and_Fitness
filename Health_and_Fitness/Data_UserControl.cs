@@ -18,7 +18,7 @@ namespace Health_and_Fitness
         {
             InitializeComponent();
         }
-
+        /*
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -36,6 +36,6 @@ namespace Health_and_Fitness
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }*/
     }
 }
