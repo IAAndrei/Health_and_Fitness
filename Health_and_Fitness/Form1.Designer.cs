@@ -165,14 +165,16 @@ namespace Health_and_Fitness
             this.Settings_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Settings_BTN.FlatAppearance.BorderSize = 0;
             this.Settings_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Settings_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Settings_BTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Settings_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Settings_BTN.Image = ((System.Drawing.Image)(resources.GetObject("Settings_BTN.Image")));
             this.Settings_BTN.Location = new System.Drawing.Point(0, 376);
             this.Settings_BTN.Margin = new System.Windows.Forms.Padding(0);
             this.Settings_BTN.Name = "Settings_BTN";
             this.Settings_BTN.Size = new System.Drawing.Size(191, 97);
             this.Settings_BTN.TabIndex = 4;
             this.Settings_BTN.Text = "Settings";
+            this.Settings_BTN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Settings_BTN.UseVisualStyleBackColor = false;
             this.Settings_BTN.Click += new System.EventHandler(this.Settings_BTN_Click);
             // 
@@ -182,14 +184,16 @@ namespace Health_and_Fitness
             this.Nutrition_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Nutrition_BTN.FlatAppearance.BorderSize = 0;
             this.Nutrition_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Nutrition_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Nutrition_BTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Nutrition_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Nutrition_BTN.Image = ((System.Drawing.Image)(resources.GetObject("Nutrition_BTN.Image")));
             this.Nutrition_BTN.Location = new System.Drawing.Point(0, 282);
             this.Nutrition_BTN.Margin = new System.Windows.Forms.Padding(0);
             this.Nutrition_BTN.Name = "Nutrition_BTN";
             this.Nutrition_BTN.Size = new System.Drawing.Size(191, 94);
             this.Nutrition_BTN.TabIndex = 3;
             this.Nutrition_BTN.Text = "Nutrition";
+            this.Nutrition_BTN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Nutrition_BTN.UseVisualStyleBackColor = false;
             this.Nutrition_BTN.Click += new System.EventHandler(this.Nutrition_BTN_Click);
             // 
@@ -199,14 +203,16 @@ namespace Health_and_Fitness
             this.Data_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Data_BTN.FlatAppearance.BorderSize = 0;
             this.Data_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Data_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Data_BTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Data_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Data_BTN.Image = ((System.Drawing.Image)(resources.GetObject("Data_BTN.Image")));
             this.Data_BTN.Location = new System.Drawing.Point(0, 188);
             this.Data_BTN.Margin = new System.Windows.Forms.Padding(0);
             this.Data_BTN.Name = "Data_BTN";
             this.Data_BTN.Size = new System.Drawing.Size(191, 94);
             this.Data_BTN.TabIndex = 2;
             this.Data_BTN.Text = "Data";
+            this.Data_BTN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Data_BTN.UseVisualStyleBackColor = false;
             this.Data_BTN.Click += new System.EventHandler(this.Data_BTN_Click);
             // 
@@ -216,14 +222,16 @@ namespace Health_and_Fitness
             this.Schedule_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Schedule_BTN.FlatAppearance.BorderSize = 0;
             this.Schedule_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Schedule_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Schedule_BTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Schedule_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Schedule_BTN.Image = ((System.Drawing.Image)(resources.GetObject("Schedule_BTN.Image")));
             this.Schedule_BTN.Location = new System.Drawing.Point(0, 94);
             this.Schedule_BTN.Margin = new System.Windows.Forms.Padding(0);
             this.Schedule_BTN.Name = "Schedule_BTN";
             this.Schedule_BTN.Size = new System.Drawing.Size(191, 94);
             this.Schedule_BTN.TabIndex = 1;
             this.Schedule_BTN.Text = "Schedule";
+            this.Schedule_BTN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Schedule_BTN.UseVisualStyleBackColor = false;
             this.Schedule_BTN.Click += new System.EventHandler(this.Schedule_BTN_Click);
             // 
@@ -231,16 +239,21 @@ namespace Health_and_Fitness
             // 
             this.Home_BTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Home_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Home_BTN.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.Home_BTN.FlatAppearance.BorderSize = 0;
             this.Home_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Home_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Home_BTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Home_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Home_BTN.Image = ((System.Drawing.Image)(resources.GetObject("Home_BTN.Image")));
+            this.Home_BTN.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Home_BTN.Location = new System.Drawing.Point(0, 0);
             this.Home_BTN.Margin = new System.Windows.Forms.Padding(0);
             this.Home_BTN.Name = "Home_BTN";
             this.Home_BTN.Size = new System.Drawing.Size(191, 94);
             this.Home_BTN.TabIndex = 0;
             this.Home_BTN.Text = "Home";
+            this.Home_BTN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Home_BTN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Home_BTN.UseVisualStyleBackColor = false;
             this.Home_BTN.Click += new System.EventHandler(this.Home_BTN_Click);
             // 
