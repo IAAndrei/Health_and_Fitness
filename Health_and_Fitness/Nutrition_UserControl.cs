@@ -16,5 +16,10 @@ namespace Health_and_Fitness
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
