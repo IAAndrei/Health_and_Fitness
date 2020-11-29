@@ -15,6 +15,14 @@ namespace Health_and_Fitness
         public Data_UserControl()
         {
             InitializeComponent();
+            List<Control> lb = Controls.OfType<Label>().Cast<Control>().ToList();
+            foreach (var eachlb in lb)
+            {
+                eachlb.Parent = DataBG_PictureBox;
+                eachlb.ForeColor = Color.FromArgb(255, 255, 255);
+            }
+            DataPanel.Parent = DataBG_PictureBox;
+            chart1.ChartAreas["ChartArea1"].BackColor = Color.Transparent;
         }
     }
 }
