@@ -21,11 +21,11 @@ namespace Health_and_Fitness
                 eachlb.Parent = HomeBG_PictureBox;
                 eachlb.ForeColor = Color.FromArgb(255, 255, 255);
             }
+            HeaderPanel.Parent = HomeBG_PictureBox;
+            icon1.Parent = HomeBG_PictureBox;
+            icon2.Parent = HomeBG_PictureBox;
+            icon3.Parent = HomeBG_PictureBox;
         }
-
-        private void Home_UserControl_Load(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }
