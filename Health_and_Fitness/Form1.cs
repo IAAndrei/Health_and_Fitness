@@ -25,9 +25,6 @@ namespace Health_and_Fitness
             InitializeComponent();
         }
 
-
-
-
         // Move window with mouse drag functions
 
         public void StartMoving()

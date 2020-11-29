@@ -72,18 +72,18 @@ namespace Health_and_Fitness
             this.IconPlaceholderIndicator_Label.ForeColor = System.Drawing.Color.Red;
             this.IconPlaceholderIndicator_Label.Location = new System.Drawing.Point(52, 9);
             this.IconPlaceholderIndicator_Label.Name = "IconPlaceholderIndicator_Label";
-            this.IconPlaceholderIndicator_Label.Size = new System.Drawing.Size(110, 16);
+            this.IconPlaceholderIndicator_Label.Size = new System.Drawing.Size(96, 13);
             this.IconPlaceholderIndicator_Label.TabIndex = 5;
             this.IconPlaceholderIndicator_Label.Text = "< Icon Placeholder";
             // 
             // Title_Label
             // 
             this.Title_Label.AutoSize = true;
-            this.Title_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Title_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Title_Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Title_Label.Location = new System.Drawing.Point(317, 9);
             this.Title_Label.Name = "Title_Label";
-            this.Title_Label.Size = new System.Drawing.Size(155, 17);
+            this.Title_Label.Size = new System.Drawing.Size(149, 16);
             this.Title_Label.TabIndex = 4;
             this.Title_Label.Text = "[PH] Health and Fitness";
             this.Title_Label.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Title_Label_MouseDown);
@@ -165,7 +165,7 @@ namespace Health_and_Fitness
             this.Settings_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Settings_BTN.FlatAppearance.BorderSize = 0;
             this.Settings_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Settings_BTN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Settings_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Settings_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Settings_BTN.Location = new System.Drawing.Point(0, 376);
             this.Settings_BTN.Margin = new System.Windows.Forms.Padding(0);
@@ -182,7 +182,7 @@ namespace Health_and_Fitness
             this.Nutrition_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Nutrition_BTN.FlatAppearance.BorderSize = 0;
             this.Nutrition_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Nutrition_BTN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Nutrition_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Nutrition_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Nutrition_BTN.Location = new System.Drawing.Point(0, 282);
             this.Nutrition_BTN.Margin = new System.Windows.Forms.Padding(0);
@@ -199,7 +199,7 @@ namespace Health_and_Fitness
             this.Data_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Data_BTN.FlatAppearance.BorderSize = 0;
             this.Data_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Data_BTN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Data_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Data_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Data_BTN.Location = new System.Drawing.Point(0, 188);
             this.Data_BTN.Margin = new System.Windows.Forms.Padding(0);
@@ -216,7 +216,7 @@ namespace Health_and_Fitness
             this.Schedule_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Schedule_BTN.FlatAppearance.BorderSize = 0;
             this.Schedule_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Schedule_BTN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Schedule_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Schedule_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Schedule_BTN.Location = new System.Drawing.Point(0, 94);
             this.Schedule_BTN.Margin = new System.Windows.Forms.Padding(0);
@@ -233,7 +233,7 @@ namespace Health_and_Fitness
             this.Home_BTN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Home_BTN.FlatAppearance.BorderSize = 0;
             this.Home_BTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Home_BTN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Home_BTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Home_BTN.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Home_BTN.Location = new System.Drawing.Point(0, 0);
             this.Home_BTN.Margin = new System.Windows.Forms.Padding(0);
@@ -256,7 +256,7 @@ namespace Health_and_Fitness
             // 
             // Main_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(800, 505);
@@ -265,7 +265,7 @@ namespace Health_and_Fitness
             this.Controls.Add(this.TableLayoutPanel);
             this.Controls.Add(this.Title_bar);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
