@@ -467,7 +467,7 @@ namespace Health_and_Fitness
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.Controls.Add(this.AverageBMI_Label);
             this.Controls.Add(this.DateNum_Label);
             this.Controls.Add(this.Date_Label);
